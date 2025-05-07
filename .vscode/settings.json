@@ -1,0 +1,35 @@
+{
+    "cSpell.words": [
+        "colorama",
+        "cómo",
+        "dateutil",
+        "estás",
+        "figsize",
+        "homoglyph",
+        "homoglyphs",
+        "itsdangerous",
+        "joblib",
+        "jsonify",
+        "lineplot",
+        "Nitin",
+        "nltk",
+        "numpy",
+        "proba",
+        "punkt",
+        "pytz",
+        "scikit",
+        "scipy",
+        "stopwords",
+        "threadpoolctl",
+        "tqdm",
+        "vectorizer",
+        "Werkzeug",
+        "xlabel",
+        "ylabel",
+        "zipp",
+        "рayраl"
+    ],
+    "python.analysis.extraPaths": [
+        "./utils"
+    ]
+}

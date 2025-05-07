@@ -1,0 +1,1 @@
+joblib.dump(model, 'models/phishing_text_model.pkl')
