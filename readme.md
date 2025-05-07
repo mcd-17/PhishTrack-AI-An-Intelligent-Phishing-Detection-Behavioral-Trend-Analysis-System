@@ -17,25 +17,26 @@ PhishTrack AI is an intelligent phishing detection system that uses machine lear
 
 ## 📁 Project Structure
 
-backend/
-│
-├── app.py # Flask app entry point
-├── utils/
-│ ├── url_model.py # URL phishing model logic
-│ ├── text_model.py # Text phishing model logic
-│ ├── report_generator.py # Report creation logic
-│ ├── language_detector.py # Detects language of content
-│ ├── anti_obfuscation_model.py # Obfuscation detection
-│ ├── visual_similarity_model.py # CNN-based screenshot phishing detection
-│ ├── url_redirect_chain_analyzer.py # Full redirect chain analyzer
-│ ├── link_redirect_model.py # Lightweight redirect checker
-│ └── temporal_analysis_model.py # Trend logging module
-│
-├── data/
-│ └── report_trends.csv # Phishing activity logs
-├── models/
-│ └── phishing_url_model.pkl # Trained ML model
-└── requirements.txt
+| **Directory/File**                          | **Description**                             |
+| ------------------------------------------- | ------------------------------------------- |
+| **backend/**                                | Root directory for the backend code         |
+| ├── **app.py**                              | Flask app entry point                       |
+| ├── **utils/**                              | Utility functions and models                |
+| │ ├── **url\_model.py**                     | URL phishing model logic                    |
+| │ ├── **text\_model.py**                    | Text phishing model logic                   |
+| │ ├── **report\_generator.py**              | Report creation logic                       |
+| │ ├── **language\_detector.py**             | Detects language of content                 |
+| │ ├── **anti\_obfuscation\_model.py**       | Obfuscation detection                       |
+| │ ├── **visual\_similarity\_model.py**      | CNN-based screenshot phishing detection     |
+| │ ├── **url\_redirect\_chain\_analyzer.py** | Full redirect chain analyzer                |
+| │ ├── **link\_redirect\_model.py**          | Lightweight redirect checker                |
+| │ └── **temporal\_analysis\_model.py**      | Trend logging module                        |
+| ├── **data/**                               | Contains data files                         |
+| │ └── **report\_trends.csv**                | Phishing activity logs                      |
+| ├── **models/**                             | Contains trained models                     |
+| │ └── **phishing\_url\_model.pkl**          | Trained ML model for URL phishing detection |
+| └── **requirements.txt**                    | Lists project dependencies                  |
+
 
 
 ---
